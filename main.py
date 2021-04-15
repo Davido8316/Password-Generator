@@ -62,5 +62,5 @@ def program():
 program()
 
 print("Dein generiertes Passwort lautet: " +pw)
-print("Beliebige Taste drücken, um das Fenster zu schließen.")
+print("ENTER drücken, um das Fenster zu schließen.")
 input()
