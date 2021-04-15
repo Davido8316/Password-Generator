@@ -44,6 +44,17 @@ def program():
     elif syntax == 32:
         zeichen = zeichenZahlen + zeichenSymbole
 
+    elif syntax == 123:
+        zeichen = zeichenZahlen + zeichenSymbole + zeichenBuchstaben
+
+    elif syntax == 231:
+        zeichen = zeichenZahlen + zeichenSymbole +zeichenBuchstaben
+
+    elif syntax == 321:
+        zeichen = zeichenZahlen + zeichenSymbole + zeichenBuchstaben
+
+
+
     laenge = int(input("Bitte Passwortlänge eingeben: "))
     for _ in range(laenge):
         pw = pw + secrets.choice(zeichen)
