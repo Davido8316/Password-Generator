@@ -1,3 +1,3 @@
 # Password-Generator
-This is a small password generator, which asks you the lengh of the password.
-Very simple.
+Ein kleiner Passwort Generator, welcher nach dem Syntax und der Länge fragt
+Sehr einfach.
